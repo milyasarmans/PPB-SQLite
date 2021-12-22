@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:text="INPUT DATA"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="NIM           : "
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Nama       : "
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Umur        : "
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="IPK           : "
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Alamat     : "
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/xnim"
+                android:layout_width="200dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/xnama"
+                android:layout_width="200dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/xumur"
+                android:layout_width="200dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/xipk"
+                android:layout_width="200dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/xalamat"
+                android:layout_width="200dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tblUbah"
+            android:layout_width="match_parent"
+            android:text="UBAH"
+            android:textSize="8dp"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/tblHapus"
+            android:layout_width="match_parent"
+            android:text="HAPUS"
+            android:textSize="8dp"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/tblTambah"
+            android:layout_width="match_parent"
+            android:text="TAMBAH"
+            android:textSize="8dp"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/tblTampil"
+            android:layout_width="match_parent"
+            android:text="TAMPIL"
+            android:textSize="8dp"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

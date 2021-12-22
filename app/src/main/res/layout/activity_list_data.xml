@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".listData">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Daftar Mahasiswa"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/listMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/dataMahasiswa"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/tombolTambah"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="TAMBAH"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
